@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade SENAI - ARRAYS</title>
+    <link href="estilo.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>SENAI - ARRAYS</h1>
+    <form id="formulario" name="formulario">
+      <div class="campo">
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite o nome"
+          required
+        />
+      </div>
+      <div class="campo">
+        <label for="sobrenome">Sobrenome:</label>
+        <input
+          type="text"
+          id="sobrenome"
+          name="sobrenome"
+          placeholder="Digite o sobrenome"
+          required
+        />
+      </div>
+      <div class="campo">
+        <label for="telefone">Telefone:</label>
+        <input
+          type="text"
+          id="telefone"
+          name="telefone"
+          placeholder="Digite o telefone"
+          required
+        />
+      </div>
+      <div class="campo">
+        <label for="email">E-mail:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Digite o e-mail"
+          required
+        />
+      </div>
+      <button type="button" onclick="exibirDados()">Enviar</button>
+    </form>
+
+    <div class="resultado" id="resultado"></div>
+
+    <script src="codigo.js"></script>
+  </body>
+</html>
